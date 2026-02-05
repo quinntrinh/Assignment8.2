@@ -1,0 +1,23 @@
+package Lec9_Inheritance.WithoutInheritance;
+
+public class Cat {
+
+    String catID = "cat";
+    String source = "VietNam";
+
+    void makeSound() {
+        System.out.println("Make a sound");
+    }
+
+    void catchMouse() {
+        System.out.println("Catch a mouse");
+    }
+
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        System.out.println("ID: " + cat.catID);
+        System.out.println("Source: " + cat.source);
+        cat.makeSound();
+        cat.catchMouse();
+    }
+}

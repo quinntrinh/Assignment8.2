@@ -1,0 +1,8 @@
+package Lec9_Inheritance.Polymorphism.Runtime;
+
+public class Dog extends Animal {
+
+    void makeSound() {
+        System.out.println("Woof woof");
+    }
+}
